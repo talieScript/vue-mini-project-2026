@@ -1,14 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MainTemplate from './templates/main-template.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p class="paragraph">
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <MainTemplate> here </MainTemplate>
 </template>
 
 <style scoped>
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .paragraph {
   font-size: 1.2em;
   color: red;
