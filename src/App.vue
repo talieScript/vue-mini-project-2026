@@ -7,6 +7,9 @@ import MainTemplate from './templates/main-template.vue'
 </template>
 
 <style scoped>
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .paragraph {
   font-size: 1.2em;
   color: red;

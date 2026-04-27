@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <button>
     <svg focusable="false" viewBox="0 0 24 24">
@@ -5,8 +7,6 @@
     </svg>
   </button>
 </template>
-
-<script setup lang="ts"></script>
 
 <style scoped>
 button {
